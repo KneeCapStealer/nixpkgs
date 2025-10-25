@@ -8,7 +8,7 @@
 
 let
   pname = "nrfconnect";
-  version = "5.1.0";
+  version = "5.2.0";
 
   src = fetchurl {
     url = "https://nsscprodmedia.blob.core.windows.net/prod/software-and-other-downloads/desktop-software/nrf-connect-for-desktop/${lib.versions.major version}-${lib.versions.minor version}-${lib.versions.patch version}/nrfconnect-${version}-x86_64.appimage";
